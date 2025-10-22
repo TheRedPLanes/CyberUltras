@@ -36,6 +36,7 @@ public class PlayerHealth : MonoBehaviour
             {
                 //cap our health at max health
                 health = maxHealth;
+                Destroy(collision.gameObject);
             }
         }
     }
