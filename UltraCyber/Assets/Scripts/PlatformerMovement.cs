@@ -21,6 +21,7 @@ public class PlatformerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         audioSource = Camera.main.GetComponent<AudioSource>();
+        djAudioSource = Camera.main.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
