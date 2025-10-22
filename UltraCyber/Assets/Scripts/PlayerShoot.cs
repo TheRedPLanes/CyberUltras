@@ -7,6 +7,7 @@ public class PlayerShoot : MonoBehaviour
     public GameObject prefab;
     public float shootSpeed = 10f;
     public float bulletLifetime = 2f;
+    public bool flipped = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,22 +17,47 @@ public class PlayerShoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        float moveX = Input.GetAxis("Horizontal");
+        if (moveX < 0)
+        {
+            //we're moving to the left
+            //flip our sprite
+            GetComponent<SpriteRenderer>().flipX = true;
+            flipped = true;
+        }
+        else if (moveX > 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+            flipped = false;
+        }
         //if we press the "shoot button" (left click)
         if (Input.GetButtonDown("Fire1"))
         {
-            //get the mouse's position in the game
-            Vector3 mousePos = Input.mousePosition;
-            mousePos = Camera.main.ScreenToWorldPoint(mousePos);
-            Debug.Log(mousePos);
-            mousePos.z = 0;
-            //spawn a bullet
-            GameObject bullet = Instantiate(prefab, transform.position, Quaternion.identity);
-            //push the bullet in the direction of the mouse
-            //destination (mousePosition) - starting position (transform.position)
-            Vector3 mouseDir = mousePos - transform.position;
-            mouseDir.Normalize();
-            bullet.GetComponent<Rigidbody2D>().velocity = mouseDir * shootSpeed;
-            Destroy(bullet, bulletLifetime);
+            if (flipped == true)
+            {
+                Vector3 shootDir = new Vector3(-1, 0,0 );
+                //spawn a bullet
+                GameObject bullet = Instantiate(prefab, transform.position, Quaternion.identity);
+                //push the bullet in the direction of the direction the player is facing
+                //destination (mousePosition) - starting position (transform.position)
+
+                shootDir.Normalize();
+                bullet.GetComponent<Rigidbody2D>().velocity = shootDir * shootSpeed;
+                Destroy(bullet, bulletLifetime);
+            } else if (flipped == false)
+            {
+                Vector3 shootDir = new Vector3(1, 0, 0);
+                //spawn a bullet
+                GameObject bullet = Instantiate(prefab, transform.position, Quaternion.identity);
+                //push the bullet in the direction of the direction the player is facing
+                //destination (mousePosition) - starting position (transform.position)
+
+                shootDir.Normalize();
+                bullet.GetComponent<Rigidbody2D>().velocity = shootDir * shootSpeed;
+                Destroy(bullet, bulletLifetime);
+            }
+            
         }
     }
 }

@@ -12,8 +12,10 @@ public class PlatformerMovement : MonoBehaviour
     bool aired = false;
     //where do we want to play the sound
     AudioSource audioSource;
+    AudioSource djAudioSource;
     //what sound do we want to play when we jump
     public AudioClip jumpSound;
+    public AudioClip airJumpSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,10 +46,10 @@ public class PlatformerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && aired && doubleJump > 0)
         {
             //play my jump sound
-            if (audioSource != null && jumpSound != null)
+            if (djAudioSource != null && airJumpSound != null)
             {
                 //play the jump sound
-                audioSource.PlayOneShot(jumpSound);
+                djAudioSource.PlayOneShot(airJumpSound);
             }
             rb.AddForce(new Vector2(0, 100 * jumpSpeed));
             doubleJump = doubleJump - 1;
