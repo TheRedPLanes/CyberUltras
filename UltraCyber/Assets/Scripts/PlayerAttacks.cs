@@ -5,7 +5,10 @@ using UnityEngine;
 public class PlayerShoot : MonoBehaviour
 {
     public GameObject prefab;
+    public GameObject meleeSwipe;
     public float shootSpeed = 10f;
+    public float meleeSpeed = 1f;
+    public float meleeLifetime = 1f;
     public float bulletLifetime = 2f;
     public bool flipped = false;
     // Start is called before the first frame update
@@ -58,6 +61,34 @@ public class PlayerShoot : MonoBehaviour
                 Destroy(bullet, bulletLifetime);
             }
             
+        }
+        if (Input.GetButtonDown("Fire2"))
+        {
+            if (flipped == true)
+            {
+                Vector3 shootDir = new Vector3(-1, 0, 0);
+                //spawn a bullet
+                GameObject melee = Instantiate(meleeSwipe, transform.position, Quaternion.identity);
+                //push the bullet in the direction of the direction the player is facing
+                //destination (mousePosition) - starting position (transform.position)
+
+                shootDir.Normalize();
+                melee.GetComponent<Rigidbody2D>().velocity = shootDir * meleeSpeed;
+                Destroy(melee, meleeLifetime);
+            }
+            else if (flipped == false)
+            {
+                Vector3 shootDir = new Vector3(1, 0, 0);
+                //spawn a bullet
+                GameObject melee = Instantiate(meleeSwipe, transform.position, Quaternion.identity);
+                //push the bullet in the direction of the direction the player is facing
+                //destination (mousePosition) - starting position (transform.position)
+
+                shootDir.Normalize();
+                melee.GetComponent<Rigidbody2D>().velocity = shootDir * meleeSpeed;
+                Destroy(melee, meleeLifetime);
+            }
+
         }
     }
 }
