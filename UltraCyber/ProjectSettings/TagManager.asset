@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - HealthPack
+  - Enemy
   layers:
   - Default
   - TransparentFX
