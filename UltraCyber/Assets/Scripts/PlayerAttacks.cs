@@ -41,7 +41,11 @@ public class PlayerShoot : MonoBehaviour
             {
                 Vector3 shootDir = new Vector3(-1, 0,0 );
                 //spawn a bullet
+                //GameObject bullet = GetComponent<SpriteRenderer>().flipX;
+                
                 GameObject bullet = Instantiate(prefab, transform.position, Quaternion.identity);
+                bullet.GetComponent<SpriteRenderer>().flipX = true;
+
                 //push the bullet in the direction of the direction the player is facing
                 //destination (mousePosition) - starting position (transform.position)
 
