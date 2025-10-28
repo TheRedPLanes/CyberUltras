@@ -11,6 +11,8 @@ public class PlayerShoot : MonoBehaviour
     public float meleeLifetime = 1f;
     public float bulletLifetime = 2f;
     public bool flipped = false;
+    public float cooldown;
+    float lastShot;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +39,11 @@ public class PlayerShoot : MonoBehaviour
         //if we press the "shoot button" (left click)
         if (Input.GetButtonDown("Fire1"))
         {
+            if (Time.time - lastShot < cooldown)
+            {
+                return;
+            }
+            lastShot = Time.time;
             if (flipped == true)
             {
                 Vector3 shootDir = new Vector3(-1, 0,0 );
