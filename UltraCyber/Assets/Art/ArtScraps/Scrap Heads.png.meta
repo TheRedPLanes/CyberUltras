@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6bf44dd597b371f4db184cee1064286b
+guid: 9572db12ebdb04d428c483505c9dab76
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: The Player 1_0
+      name: Scrap Heads_0
       rect:
         serializedVersion: 2
         x: 0
@@ -111,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e32914ce446441043b5ea6e3266c4e40
-      internalID: 1433078103
+      spriteID: 390afa9359d437649be5ba383c23f3bb
+      internalID: 1013820452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The Player 1_1
+      name: Scrap Heads_1
       rect:
         serializedVersion: 2
         x: 120
@@ -132,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fc401f770d00184a97af735846bf01e
-      internalID: 1264650173
+      spriteID: 375f30357b6ae424ab47c9bf35e9f8ee
+      internalID: -111737791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The Player 1_2
+      name: Scrap Heads_2
       rect:
         serializedVersion: 2
         x: 240
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d44ec7b52e134da4e88732ca03d763d2
-      internalID: -901577795
+      spriteID: 4e1be3f4a45d2f24b918de87dab8b383
+      internalID: -1673949420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The Player 1_3
+      name: Scrap Heads_3
       rect:
         serializedVersion: 2
         x: 360
@@ -174,35 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dd92042c1dac9740a65062bb1667232
-      internalID: -2147313228
+      spriteID: f405f614910dd184f9085baec719eef1
+      internalID: -1290148331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The Player 1_4
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 480
-        width: 120
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62eb8e67f5786bb44940d23a3359d6ec
-      internalID: -569930906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: The Player 1_5
+      name: Scrap Heads_4
       rect:
         serializedVersion: 2
         x: 0
@@ -216,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58d547d223c8905479d531881ca27af0
-      internalID: -1110393087
+      spriteID: 84f5a5f6f917f5f47a47985c053d641b
+      internalID: 1847981740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The Player 1_6
+      name: Scrap Heads_5
       rect:
         serializedVersion: 2
         x: 120
@@ -237,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74e5dee4642d7034e89989423d77218c
-      internalID: 1328242968
+      spriteID: faa90cded5553c14599f1a1577c7f934
+      internalID: 1456706272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The Player 1_7
+      name: Scrap Heads_6
       rect:
         serializedVersion: 2
         x: 240
@@ -258,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89a31411250519641a75c10bacabfd17
-      internalID: -1922539219
+      spriteID: 8ed8e7a6aa767c34480709413541b781
+      internalID: 2073753909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The Player 1_8
+      name: Scrap Heads_7
       rect:
         serializedVersion: 2
         x: 360
@@ -279,35 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b76e4606a60b4794188f91b447dc4756
-      internalID: -1384139292
+      spriteID: f9bcd03e2906efb49848a1d2dc72fb95
+      internalID: 533861369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The Player 1_9
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 360
-        width: 120
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7255d9cdf5db4c047a34006a8657ebd3
-      internalID: 69710655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: The Player 1_10
+      name: Scrap Heads_8
       rect:
         serializedVersion: 2
         x: 0
@@ -321,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: daa9840b45011964ba9714074f0f4e78
-      internalID: -1571492130
+      spriteID: 1349d9c6067856548842fb9eecd2c363
+      internalID: 671450483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The Player 1_11
+      name: Scrap Heads_9
       rect:
         serializedVersion: 2
         x: 120
@@ -342,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d87a49b0e87de249b0a4b2bd7086760
-      internalID: 1713723248
+      spriteID: 85d80b33314f42e4f8025700a5401c55
+      internalID: -253172038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The Player 1_12
+      name: Scrap Heads_10
       rect:
         serializedVersion: 2
         x: 240
@@ -363,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e4c0b29f8cd5c443a4d90d616e82cc9
-      internalID: 964144715
+      spriteID: f0ba68f220d78cf4aa053743da21c166
+      internalID: 806560790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The Player 1_13
+      name: Scrap Heads_11
       rect:
         serializedVersion: 2
         x: 360
@@ -384,35 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15fd1dc5115f7064badc761e0063ffcc
-      internalID: -891580213
+      spriteID: a9e3c5a710a91c24ba3e58b5a040bb0d
+      internalID: 121304038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The Player 1_14
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 240
-        width: 120
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c488c9968adc97e41bbc063e066305b4
-      internalID: 1732025777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: The Player 1_15
+      name: Scrap Heads_12
       rect:
         serializedVersion: 2
         x: 0
@@ -426,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80e1c712e4753a047855a3f2ee8946ea
-      internalID: 636035131
+      spriteID: 3d14a941f048bdb4eba3c4c56e298d0d
+      internalID: 1280055496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The Player 1_16
+      name: Scrap Heads_13
       rect:
         serializedVersion: 2
         x: 120
@@ -447,14 +384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2a65097e45f2d74fa844f95a21f4625
-      internalID: 1934561904
+      spriteID: 5997603cf6c34d248b0ac8bab2ea9cb6
+      internalID: -1720426131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The Player 1_17
+      name: Scrap Heads_14
       rect:
         serializedVersion: 2
         x: 240
@@ -468,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 515bdb70b53371f48ab84e73b91a97a3
-      internalID: -48962695
+      spriteID: 35cc799ae881e7b45b3489c5135fc311
+      internalID: -635604831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The Player 1_18
+      name: Scrap Heads_15
       rect:
         serializedVersion: 2
         x: 360
@@ -489,35 +426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfa788909032e2c4abf03294096dec22
-      internalID: -664389393
+      spriteID: d5631cc2d887845439c007b8f56d6469
+      internalID: 1334867604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The Player 1_19
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 120
-        width: 120
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8e31244ec8b63d4983ac1df25703ce2
-      internalID: -762013992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: The Player 1_20
+      name: Scrap Heads_16
       rect:
         serializedVersion: 2
         x: 0
@@ -531,71 +447,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5c970dd42716984e8a1266596a7f8be
-      internalID: -1638992371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: The Player 1_21
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 0
-        width: 120
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d00feb87692b36428121900a0bc40ea
-      internalID: 1552586469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: The Player 1_22
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 120
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d7b4708ca702dd44b6eff35461bc2fb
-      internalID: 68301628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: The Player 1_23
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 0
-        width: 120
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc524b8dd30ac6c4aadd21fb904993f8
-      internalID: -2037277079
+      spriteID: 1c2e8eaaacabc61448d048107153464a
+      internalID: 1976409028
       vertices: []
       indices: 
       edges: []
@@ -611,30 +464,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      The Player 1_0: 1433078103
-      The Player 1_1: 1264650173
-      The Player 1_10: -1571492130
-      The Player 1_11: 1713723248
-      The Player 1_12: 964144715
-      The Player 1_13: -891580213
-      The Player 1_14: 1732025777
-      The Player 1_15: 636035131
-      The Player 1_16: 1934561904
-      The Player 1_17: -48962695
-      The Player 1_18: -664389393
-      The Player 1_19: -762013992
-      The Player 1_2: -901577795
-      The Player 1_20: -1638992371
-      The Player 1_21: 1552586469
-      The Player 1_22: 68301628
-      The Player 1_23: -2037277079
-      The Player 1_3: -2147313228
-      The Player 1_4: -569930906
-      The Player 1_5: -1110393087
-      The Player 1_6: 1328242968
-      The Player 1_7: -1922539219
-      The Player 1_8: -1384139292
-      The Player 1_9: 69710655
+      Scrap Heads_0: 1013820452
+      Scrap Heads_1: -111737791
+      Scrap Heads_10: 806560790
+      Scrap Heads_11: 121304038
+      Scrap Heads_12: 1280055496
+      Scrap Heads_13: -1720426131
+      Scrap Heads_14: -635604831
+      Scrap Heads_15: 1334867604
+      Scrap Heads_16: 1976409028
+      Scrap Heads_2: -1673949420
+      Scrap Heads_3: -1290148331
+      Scrap Heads_4: 1847981740
+      Scrap Heads_5: 1456706272
+      Scrap Heads_6: 2073753909
+      Scrap Heads_7: 533861369
+      Scrap Heads_8: 671450483
+      Scrap Heads_9: -253172038
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
