@@ -44,6 +44,10 @@ public class OpenShop : MonoBehaviour
                 player.GetComponent<PlatformerMovement>().UpgradeSpeed();
                 player.GetComponent<Collectables>().coins -= 5;
             }
+            else
+            {
+
+            }
         }
 
 

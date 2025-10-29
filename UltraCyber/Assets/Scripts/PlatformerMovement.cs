@@ -73,4 +73,8 @@ public class PlatformerMovement : MonoBehaviour
             aired = true;
         }
     }
+    public void UpgradeSpeed()
+    {
+        moveSpeed += 0.1f;
+    }
 }
