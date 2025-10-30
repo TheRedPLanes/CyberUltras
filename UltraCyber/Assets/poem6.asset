@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7f5c57940d7834db4043ac9062cf51, type: 3}
+  m_Name: poem6
+  m_EditorClassIdentifier: 
+  promptText: 'And the universe said you are the daylight
+
+    And the universe
+    said you are the nightAnd the universe said the darkness you fight is within
+    you
+
+    And the universe said the light you seek is within you
+
+'
+  optionAText: '[LISTEN]'
+  optionANode: {fileID: 11400000, guid: e66c503493c65e5408c704933ae796ca, type: 2}
+  optionBText: STOP!
+  optionBNode: {fileID: 11400000, guid: 750409ea22fa89744880f49cabed4769, type: 2}
+  isEnding: 0
+  sceneToLoad: 

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7f5c57940d7834db4043ac9062cf51, type: 3}
+  m_Name: who
+  m_EditorClassIdentifier: 
+  promptText: 'Really? you dont remember? what a shame...
+
+    I missed you. we all
+    have, Michael.'
+  optionAText: How do you know my name?
+  optionANode: {fileID: 11400000, guid: f9403736ce5bfe648953723639c8d243, type: 2}
+  optionBText: What?
+  optionBNode: {fileID: 11400000, guid: f515ce1cf3e82bb498b53b096902603d, type: 2}
+  isEnding: 0
+  sceneToLoad: 

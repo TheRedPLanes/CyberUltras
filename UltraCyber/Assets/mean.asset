@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7f5c57940d7834db4043ac9062cf51, type: 3}
+  m_Name: mean
+  m_EditorClassIdentifier: 
+  promptText: Mhm... I suppose It is the day and age when a friend would scrap another
+    for energy. i suppose even the killing of a friend is not above you now with
+    the things you've done.
+  optionAText: You have no idea what ive done. get lost.
+  optionANode: {fileID: 11400000, guid: d7466a97a75d5cd4d92dd6aff22e270a, type: 2}
+  optionBText: 'I''m just trying to surive. '
+  optionBNode: {fileID: 11400000, guid: 0794c47a98218244e8d613dfd56fa3f0, type: 2}
+  isEnding: 0
+  sceneToLoad: 
