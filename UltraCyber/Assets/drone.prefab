@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 5765419705978276033}
   - component: {fileID: 4911923616530805612}
   - component: {fileID: 7854557257399251814}
+  - component: {fileID: -5502469522438471495}
+  - component: {fileID: -1661299673415406023}
   m_Layer: 0
   m_Name: drone
   m_TagString: Untagged
@@ -100,8 +102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30e39b6bd32300e4b92df8ec4ef098c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chaseSpeed: 5
-  chaseTriggerDistance: 30
+  chaseSpeed: 4
+  chaseTriggerDistance: 5
   returnHome: 0
   patrol: 1
   patrolDirection: {x: 3, y: 0, z: 0}
@@ -203,3 +205,31 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!111 &-5502469522438471495
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2392185786095444152}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 480621f6c85d2194bbed3585cebcee27, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &-1661299673415406023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2392185786095444152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1274b1e9cef1144942dc284f3d693e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 2
