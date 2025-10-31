@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -22,6 +23,8 @@ public class DroneAI : MonoBehaviour
     public Vector3 patrolDirection = Vector3.zero;
     public float patrolDistance = 3f;
     public float placeHolder = 0f;
+    public bool chasing = false;
+    public float dropSense = 0.5f;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -47,10 +50,16 @@ public class DroneAI : MonoBehaviour
             chaseDir.Normalize();
             GetComponent<Rigidbody2D>().velocity = chaseDir * chaseSpeed;
             isHome = false;
+            chasing = true;
+        }
+        if (chasing == true && chaseDir.magnitude <= dropSense)
+        {
+
         }
         //if the returnHome variable is true, try to get home
         else if (returnHome && !isHome)
         {
+            chasing = false;
             //return home
             Vector3 homeDir = home - transform.position;
             //if I am far enough away from home, try to go home
