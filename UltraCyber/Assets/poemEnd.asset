@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc7f5c57940d7834db4043ac9062cf51, type: 3}
-  m_Name: node
+  m_Name: poemEnd
   m_EditorClassIdentifier: 
-  promptText: 'Ah. . . A visitor? in these times, it''d do me well to avoid you.
-    . . '
-  optionAText: next
-  optionANode: {fileID: 11400000, guid: 39b412db35dd19b4681415bdc3cbee87, type: 2}
-  optionBText: 
+  promptText: "And the universe said you are not alone\r\nAnd the universe said you
+    are not separate from every other thing\r\nAnd the universe said you are the
+    universe tasting itself, talking to itself, reading its own codeYou are the Flesh
+    in the metal\nAnd you are loved.\nwake up.\r"
+  optionAText: That.. was nice.
+  optionANode: {fileID: 0}
+  optionBText: I've heard better.
   optionBNode: {fileID: 0}
   isEnding: 0
   sceneToLoad: 

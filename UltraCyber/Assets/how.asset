@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc7f5c57940d7834db4043ac9062cf51, type: 3}
-  m_Name: node2
+  m_Name: how
   m_EditorClassIdentifier: 
-  promptText: Wouldn't it, Michael?
-  optionAText: It would be.
-  optionANode: {fileID: 0}
-  optionBText: How do you know my name?
-  optionBNode: {fileID: 0}
+  promptText: How could I not? we are close friends after all.
+  optionAText: Who are you?
+  optionANode: {fileID: 11400000, guid: cd2b2229132d2d64e81830b3773c8244, type: 2}
+  optionBText: 'My friends are all dead. '
+  optionBNode: {fileID: 11400000, guid: 9a018aa40b26d3e4da58b0823728eb5c, type: 2}
   isEnding: 0
   sceneToLoad: 
