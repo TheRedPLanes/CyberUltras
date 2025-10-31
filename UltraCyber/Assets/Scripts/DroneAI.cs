@@ -32,6 +32,7 @@ public class DroneAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         float chaseDirection = player.transform.position.x - transform.position.x;
         //figure out where the player is, how far away
         //how far away is the player from me, the enemy
