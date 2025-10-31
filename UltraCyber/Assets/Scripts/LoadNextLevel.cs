@@ -7,9 +7,9 @@ public class LoadNextLevel : MonoBehaviour
     public string levelToLoad;
     //when the player collides with me
     //load the given level
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTrigger2D()
     {
-        if(collision.gameObject.tag == "Player")
+        if(gameObject.tag == "Player")
         {
             SceneManager.LoadScene(levelToLoad);
         }
