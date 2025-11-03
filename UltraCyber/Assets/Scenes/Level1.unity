@@ -22397,6 +22397,10 @@ PrefabInstance:
       value: ScrapHead (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3815463092657474196, guid: 500f9492c8a34c149907ab9fa527b9ab, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3815463092657474196, guid: 500f9492c8a34c149907ab9fa527b9ab, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 1013820452, guid: 9572db12ebdb04d428c483505c9dab76, type: 3}
@@ -75419,6 +75423,10 @@ PrefabInstance:
     - target: {fileID: 1499152054747795724, guid: 500f9492c8a34c149907ab9fa527b9ab, type: 3}
       propertyPath: m_Name
       value: ScrapHead
+      objectReference: {fileID: 0}
+    - target: {fileID: 3815463092657474196, guid: 500f9492c8a34c149907ab9fa527b9ab, type: 3}
+      propertyPath: m_FlipX
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

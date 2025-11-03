@@ -23,7 +23,10 @@ public class EnemyAnimControls : MonoBehaviour
             //flip our sprite
             GetComponent<SpriteRenderer>().flipX = true;
         }
-        else if (moveX > 0) ;
+        else if (moveX > 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+        }
     }
 }
 
