@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5047567914895747373}
   - component: {fileID: 5126451569606585468}
   - component: {fileID: 8480253034231971057}
+  - component: {fileID: -6715437315037695447}
   m_Layer: 0
   m_Name: ScrapHead
   m_TagString: Enemy
@@ -213,3 +214,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-6715437315037695447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499152054747795724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481c2fc8507b56949959af7bdcd3e4ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
