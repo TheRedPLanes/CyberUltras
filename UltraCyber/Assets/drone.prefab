@@ -13,8 +13,6 @@ GameObject:
   - component: {fileID: 6584711786962495753}
   - component: {fileID: 5765419705978276033}
   - component: {fileID: 4911923616530805612}
-  - component: {fileID: 7854557257399251814}
-  - component: {fileID: -5502469522438471495}
   - component: {fileID: -1661299673415406023}
   m_Layer: 0
   m_Name: drone
@@ -109,6 +107,8 @@ MonoBehaviour:
   patrolDirection: {x: 3, y: 0, z: 0}
   patrolDistance: 3
   placeHolder: 3
+  chasing: 0
+  dropSense: 0.5
 --- !u!50 &5765419705978276033
 Rigidbody2D:
   serializedVersion: 4
@@ -184,42 +184,6 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
---- !u!95 &7854557257399251814
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2392185786095444152}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!111 &-5502469522438471495
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2392185786095444152}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 480621f6c85d2194bbed3585cebcee27, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &-1661299673415406023
 MonoBehaviour:
   m_ObjectHideFlags: 0

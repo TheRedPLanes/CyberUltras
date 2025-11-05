@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 6792365897607579517}
   - component: {fileID: 5047567914895747373}
   - component: {fileID: 5126451569606585468}
-  - component: {fileID: 4506081287734221747}
   - component: {fileID: 8480253034231971057}
   m_Layer: 0
   m_Name: ScrapHead
@@ -193,21 +192,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!111 &4506081287734221747
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1499152054747795724}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &8480253034231971057
 Animator:
   serializedVersion: 5

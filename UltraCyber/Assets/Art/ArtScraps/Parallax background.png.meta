@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aa917356641c8ea49a96a093ed6ee8df
+guid: 4bd211791aef5864294f56a9c25f31b4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,70 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Platform level 3_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b8933be659326141bd223021a317997
-      internalID: -658569084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Platform level 3_1
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c24501f268dd1347a49b2705f95c857
-      internalID: 843246736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Platform level 3_2
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 799ba586375008b419da8b009018b651
-      internalID: 700228956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Platform level 3_3
+      name: Parallax background_0
       rect:
         serializedVersion: 2
         x: 0
@@ -174,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e33034408526f54288debe0507ad8a8
-      internalID: -158680782
+      spriteID: 44004291f8f142046ad0823e1a6d4d0b
+      internalID: -2125859356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Platform level 3_4
+      name: Parallax background_1
       rect:
         serializedVersion: 2
         x: 128
@@ -195,35 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26104c6b88712c2459e3fb53fe1639b7
-      internalID: -1093805636
+      spriteID: c8c16b87cd4034e42b5b6657a9c9349b
+      internalID: 1628900176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Platform level 3_5
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 193dd1aa930a7574394d4acbb0fd34ec
-      internalID: -1940881968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Platform level 3_6
+      name: Parallax background_2
       rect:
         serializedVersion: 2
         x: 0
@@ -237,29 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f34b2b5cfcfe31a42804e57974e83328
-      internalID: -1159350479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Platform level 3_7
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07be74a951991cd46b94034a384e2f46
-      internalID: -1774149784
+      spriteID: b2264fd158ec24a45944eed6119f9fc7
+      internalID: -1495210022
       vertices: []
       indices: 
       edges: []
@@ -275,14 +170,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Platform level 3_0: -658569084
-      Platform level 3_1: 843246736
-      Platform level 3_2: 700228956
-      Platform level 3_3: -158680782
-      Platform level 3_4: -1093805636
-      Platform level 3_5: -1940881968
-      Platform level 3_6: -1159350479
-      Platform level 3_7: -1774149784
+      Parallax background_0: -2125859356
+      Parallax background_1: 1628900176
+      Parallax background_2: -1495210022
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
