@@ -7,6 +7,7 @@ using UnityEngine;
 public class DroneAI : MonoBehaviour
 {
     GameObject player;
+    public GameObject bombSprite;
     //the speed at which the enemy will move
     public float chaseSpeed = 5.0f;
     //how close the player needs to be for the enemy to start chasing
@@ -25,11 +26,13 @@ public class DroneAI : MonoBehaviour
     public float placeHolder = 0f;
     public bool chasing = false;
     public float dropSense = 0.5f;
+    float startMoveSpeed;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         //home is my starting position when the game is played
         home = transform.position;
+        startMoveSpeed = chaseSpeed;
     }
 
     // Update is called once per frame
@@ -54,6 +57,13 @@ public class DroneAI : MonoBehaviour
         }
         if (chasing == true && chaseDir.magnitude <= dropSense)
         {
+            //close enough to attack
+            chaseSpeed = 0;
+            GameObject bomb = Instantiate(bombSprite, transform.position, Quaternion.identity);
+            bombSprite.GetComponent<SpriteRenderer>().flipX = true;
+            //when we want to chase again, set chaseSpeed = startMoveSpeed
+        }
+        else if(chaseSpeed == 0){
 
         }
         //if the returnHome variable is true, try to get home
