@@ -21,9 +21,12 @@ public class EnemyAnimControls : MonoBehaviour
         {
             //we're moving to the left
             //flip our sprite
+            GetComponent<SpriteRenderer>().flipX = false;
+        }
+        else if (moveX > 0)
+        {
             GetComponent<SpriteRenderer>().flipX = true;
         }
-        else if (moveX > 0) ;
     }
 }
 
