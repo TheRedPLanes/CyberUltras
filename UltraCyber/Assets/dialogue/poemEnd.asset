@@ -17,8 +17,8 @@ MonoBehaviour:
     universe tasting itself, talking to itself, reading its own codeYou are the Flesh
     in the metal\nAnd you are loved.\nwake up.\r"
   optionAText: That.. was nice.
-  optionANode: {fileID: 0}
+  optionANode: {fileID: 11400000, guid: c94a0eaa9ae916648b77d06a675c3400, type: 2}
   optionBText: I've heard better.
-  optionBNode: {fileID: 0}
+  optionBNode: {fileID: 11400000, guid: c94a0eaa9ae916648b77d06a675c3400, type: 2}
   isEnding: 0
   sceneToLoad: 
