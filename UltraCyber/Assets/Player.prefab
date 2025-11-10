@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 7601534919803060237}
   - component: {fileID: 370605135096953003}
   - component: {fileID: 4366710741778797950}
-  - component: {fileID: 586726764340461485}
   - component: {fileID: 4733333917802980147}
   - component: {fileID: 2178895627899567418}
   - component: {fileID: 4547206297885474082}
   - component: {fileID: 5788518464839722690}
   - component: {fileID: 1161198070704341170}
   - component: {fileID: 4685518916866955765}
+  - component: {fileID: 5449675931151878277}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -107,26 +107,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   healthBar: {fileID: 0}
---- !u!114 &586726764340461485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2082772173480759439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4e2fa6643f4c3046a0807663e683f94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 1924856658102793846, guid: fe8c5461005ab62408d5a07d7150a80e, type: 3}
-  meleeSwipe: {fileID: 0}
-  shootSpeed: 10
-  meleeSpeed: 1
-  meleeLifetime: 0.2
-  bulletLifetime: 1
-  flipped: 0
-  cooldown: 0
 --- !u!114 &4733333917802980147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,6 +242,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.47998536, y: 0.7825395}
   m_EdgeRadius: 0
+--- !u!114 &5449675931151878277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082772173480759439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e2fa6643f4c3046a0807663e683f94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1924856658102793846, guid: fe8c5461005ab62408d5a07d7150a80e, type: 3}
+  meleeSwipe: {fileID: 0}
+  shootSpeed: 10
+  meleeSpeed: 1
+  meleeLifetime: 1
+  bulletLifetime: 2
+  flipped: 0
+  cooldown: 0.2765
 --- !u!1 &4604896100694610373
 GameObject:
   m_ObjectHideFlags: 0
