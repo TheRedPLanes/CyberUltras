@@ -29,8 +29,8 @@ public class PlatformerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         audioSource = Camera.main.GetComponent<AudioSource>();
         djAudioSource = Camera.main.GetComponent<AudioSource>();
-        controller = GetComponent<CharacterController>();
-        currentSpeed = walkSpeed;
+        
+        currentSpeed = moveSpeed;
         currentStamina = maxStamina;
     }
 
@@ -45,19 +45,19 @@ public class PlatformerMovement : MonoBehaviour
         }
         else
         {
-            currentSpeed = walkSpeed;
+            currentSpeed = moveSpeed;
             currentStamina += staminaRechargeRate * Time.deltaTime;
             currentStamina = Mathf.Min(maxStamina, currentStamina); // Ensure stamina doesn't exceed max
         }
         if (currentStamina <= 0)
         {
-            currentSpeed = walkSpeed;
+            currentSpeed = moveSpeed;
         }
         //when we press left or right, move the char left/right
         float moveX = Input.GetAxis("Horizontal");
         //maintain the integrity of our Y velocity
         Vector3 velocity = rb.velocity;
-        velocity.x = moveX * moveSpeed;
+        velocity.x = moveX * currentSpeed;
         rb.velocity = velocity;
         //if you press space AND you're on the ground, jump the char
         if (Input.GetButtonDown("Jump") && grounded)
