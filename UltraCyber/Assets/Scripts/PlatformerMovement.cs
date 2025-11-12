@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class PlatformerMovement : MonoBehaviour
 {
@@ -23,7 +25,10 @@ public class PlatformerMovement : MonoBehaviour
     //what sound do we want to play when we jump
     public AudioClip jumpSound;
     public AudioClip airJumpSound;
+    public AudioClip walksound;
+    public AudioClip SprintOrSlideSound;
     // Start is called before the first frame update
+    public Image StaminaBar;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -32,6 +37,7 @@ public class PlatformerMovement : MonoBehaviour
         
         currentSpeed = moveSpeed;
         currentStamina = maxStamina;
+        StaminaBar.fillAmount = currentStamina / maxStamina;
     }
 
     // Update is called once per frame
@@ -42,11 +48,13 @@ public class PlatformerMovement : MonoBehaviour
             currentSpeed = sprintSpeed;
             currentStamina -= staminaDrainRate * Time.deltaTime;
             currentStamina = Mathf.Max(0, currentStamina); // Ensure stamina doesn't go below 0
+            StaminaBar.fillAmount = currentStamina / maxStamina;
         }
         else
         {
             currentSpeed = moveSpeed;
             currentStamina += staminaRechargeRate * Time.deltaTime;
+             StaminaBar.fillAmount = currentStamina / maxStamina;
             currentStamina = Mathf.Min(maxStamina, currentStamina); // Ensure stamina doesn't exceed max
         }
         if (currentStamina <= 0)
