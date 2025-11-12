@@ -13,6 +13,7 @@ public class PlayerShoot : MonoBehaviour
     public bool flipped = false;
     public float cooldown;
     float lastShot;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -102,4 +103,5 @@ public class PlayerShoot : MonoBehaviour
 
         }
     }
+
 }
