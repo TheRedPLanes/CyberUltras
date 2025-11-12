@@ -35,13 +35,47 @@ public class OpenShop : MonoBehaviour
 
         }
     }
-    public void BuyUpgrade()
+    public void BuySpeedUpgrade()
     {
         if (player.GetComponent<Collectables>() != null)
         {
             if (player.GetComponent<Collectables>().coins >= 5)
             {
                 player.GetComponent<PlatformerMovement>().UpgradeSpeed();
+                player.GetComponent<Collectables>().coins -= 5;
+            }
+            else
+            {
+
+            }
+        }
+
+
+    }
+    public void BuyMeleeUpgrade()
+    {
+        if (player.GetComponent<Collectables>() != null)
+        {
+            if (player.GetComponent<Collectables>().coins >= 5)
+            {
+                player.GetComponent<EnemyHealth>().UpgradeMeleeDamage();
+                player.GetComponent<Collectables>().coins -= 5;
+            }
+            else
+            {
+
+            }
+        }
+
+
+    }
+    public void BuyBulletUpgrade()
+    {
+        if (player.GetComponent<Collectables>() != null)
+        {
+            if (player.GetComponent<Collectables>().coins >= 5)
+            {
+                player.GetComponent<EnemyHealth>().UpgradeBulletDamage();
                 player.GetComponent<Collectables>().coins -= 5;
             }
             else
