@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public int health = 3;
+    public float health = 3f;
+    public float PlayerMeleeDamage = 1f;
+    public static float PlayerBulletDamage = 1f;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,12 +27,32 @@ public class EnemyHealth : MonoBehaviour
             //destroy the bullet
             Destroy(collision.gameObject);
             //reduce my hp
-            health--;
+            health -= PlayerBulletDamage;
             //destroy myself if I get too low in health
             if(health <= 0)
             {
                 Destroy(gameObject);
             }
         }
+        if (collision.gameObject.tag == "PlayerMelee")
+        {
+            //destroy the bullet
+            Destroy(collision.gameObject);
+            //reduce my hp
+            health -= PlayerMeleeDamage;
+            //destroy myself if I get too low in health
+            if (health <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
+    }
+    public void UpgradeMeleeDamage()
+    {
+        PlayerMeleeDamage += 1f;
+    }
+    public void UpgradeBulletDamage()
+    {
+        PlayerBulletDamage += 1f;
     }
 }
