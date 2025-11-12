@@ -8,6 +8,13 @@ public class PlatformerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpSpeed = 5f;
     public float doubleJump = 0f;
+    public float sprintSpeed = 10f;
+    public float maxStamina = 100f;
+    public float staminaDrainRate = 10f; // Stamina drained per second while sprinting
+    public float staminaRechargeRate = 5f; // Stamina recharged per second while not sprinting
+
+    private float currentSpeed;
+    private float currentStamina;
     bool grounded = false;
     bool aired = false;
     //where do we want to play the sound
@@ -22,11 +29,30 @@ public class PlatformerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         audioSource = Camera.main.GetComponent<AudioSource>();
         djAudioSource = Camera.main.GetComponent<AudioSource>();
+        controller = GetComponent<CharacterController>();
+        currentSpeed = walkSpeed;
+        currentStamina = maxStamina;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey(KeyCode.LeftShift) && currentStamina > 0)
+        {
+            currentSpeed = sprintSpeed;
+            currentStamina -= staminaDrainRate * Time.deltaTime;
+            currentStamina = Mathf.Max(0, currentStamina); // Ensure stamina doesn't go below 0
+        }
+        else
+        {
+            currentSpeed = walkSpeed;
+            currentStamina += staminaRechargeRate * Time.deltaTime;
+            currentStamina = Mathf.Min(maxStamina, currentStamina); // Ensure stamina doesn't exceed max
+        }
+        if (currentStamina <= 0)
+        {
+            currentSpeed = walkSpeed;
+        }
         //when we press left or right, move the char left/right
         float moveX = Input.GetAxis("Horizontal");
         //maintain the integrity of our Y velocity
