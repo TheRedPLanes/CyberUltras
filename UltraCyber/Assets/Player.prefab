@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 4547206297885474082}
   - component: {fileID: 5788518464839722690}
   - component: {fileID: 1161198070704341170}
-  - component: {fileID: 4685518916866955765}
   - component: {fileID: 5449675931151878277}
   m_Layer: 0
   m_Name: Player
@@ -122,8 +121,15 @@ MonoBehaviour:
   moveSpeed: 5
   jumpSpeed: 3.3
   doubleJump: 0
+  sprintSpeed: 10
+  maxStamina: 100
+  staminaDrainRate: 10
+  staminaRechargeRate: 5
   jumpSound: {fileID: 8300000, guid: e8ad353543039954a915af64d07b8903, type: 3}
   airJumpSound: {fileID: 8300000, guid: e3c81c3d861b48b40aebf5273879152d, type: 3}
+  walksound: {fileID: 0}
+  SprintOrSlideSound: {fileID: 0}
+  StaminaBar: {fileID: 0}
 --- !u!114 &2178895627899567418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,51 +203,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ad6a3e024bd66449bf58fd2407cffa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &4685518916866955765
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2082772173480759439}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.01418227, y: -0.10873026}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.47998536, y: 0.7825395}
-  m_EdgeRadius: 0
 --- !u!114 &5449675931151878277
 MonoBehaviour:
   m_ObjectHideFlags: 0
