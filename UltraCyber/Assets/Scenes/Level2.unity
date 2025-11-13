@@ -122,17 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &27259928 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4665753623719767132, guid: 7e056fecdfd46264fbe2709ff0c65863, type: 3}
-  m_PrefabInstance: {fileID: 781584255}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &67000498
 GameObject:
   m_ObjectHideFlags: 0
@@ -2524,6 +2513,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1296689469 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5532424283574838251, guid: 7e056fecdfd46264fbe2709ff0c65863, type: 3}
+  m_PrefabInstance: {fileID: 781584255}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1306156368
 GameObject:
   m_ObjectHideFlags: 0
@@ -5847,7 +5847,7 @@ PrefabInstance:
     - target: {fileID: 4366710741778797950, guid: 3e876012c78745044ae9ec5d4c88701b, type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 27259928}
+      objectReference: {fileID: 1296689469}
     - target: {fileID: 4547206297885474082, guid: 3e876012c78745044ae9ec5d4c88701b, type: 3}
       propertyPath: m_SleepingMode
       value: 0
