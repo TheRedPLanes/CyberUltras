@@ -1226,7 +1226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBetweenCharacters: 0.05
   delayBeforeStart: 12
-  fullText: 'Objective: Salvage spare parts. '
+  fullText: 'Objective: Salvage spare parts to survive.'
 --- !u!114 &1107280501
 MonoBehaviour:
   m_ObjectHideFlags: 0

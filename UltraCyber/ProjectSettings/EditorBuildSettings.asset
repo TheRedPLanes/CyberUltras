@@ -15,17 +15,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Level2.unity
     guid: 332a0fe38ec25f64da6153e0874bac78
   - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 8764b06e18cc46041a0680ef9a0a9be2
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: 59417b5fdf962d446bf8e61f133efcf8
+  - enabled: 1
     path: Assets/Scenes/1-2.unity
     guid: 4409a0c1b6d12924c8253f86cfc79d68
-  - enabled: 1
-    path: Assets/Scenes/FoeOrFriend.unity
-    guid: 42f95c467dc510840ae7698da9a7e085
   - enabled: 1
     path: Assets/Scenes/2-3.unity
     guid: 6ec61e4e0dff99f49bf5637f31c7bdc6
   - enabled: 1
-    path: Assets/Scenes/Level3.unity
-    guid: 8764b06e18cc46041a0680ef9a0a9be2
+    path: Assets/Scenes/3-4.unity
+    guid: 8e4d9969b3fed134eb2774928c102065
+  - enabled: 1
+    path: Assets/Scenes/FoeOrFriend.unity
+    guid: 42f95c467dc510840ae7698da9a7e085
   - enabled: 1
     path: Assets/Scenes/startup.unity
     guid: ff1efeb2d9087a7488adf534be143f37
