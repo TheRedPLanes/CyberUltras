@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BombAi : MonoBehaviour
 {
+    public GameObject meleeSwipe;
+    public float explodeSpeed = 0f;
+    public float explodeLifetime = 1f;
     // Start is called before the first frame update
     void Start()
     {
